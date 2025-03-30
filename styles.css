@@ -1,0 +1,36 @@
+:root{
+    --fondocolorslatecolor: rgb(124, 175, 204);
+}
+
+body{
+    background-color: var(--fondocolorslatecolor);
+    text-align: center;
+}
+
+.card_container{
+    background-color: white;
+    width: 200px;
+    height: 310px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    h1{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    /* https://smoothshadows.com/#djEsMSwzLDAuMTYsNzAsMzIsMCwjMDMwNzEyLCNmM2Y0ZjYsI2ZmZmZmZiwy */
+    box-shadow: 0px 4px 8px rgba(3, 7, 18, 0.05),
+    0px 14px 31px rgba(3, 7, 18, 0.11),
+    0px 32px 70px rgba(3, 7, 18, 0.16);
+}
+
+.card{
+    padding: 9px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
